@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">home</a> > <a href="#">Admin</a> > Kelola masjid
+    </div>
+    <form action="#" method="post">
+    <table>
+        <tr>
+            <td>
+                <label for="nama">Nama Masjid: </label>
+            </td>
+            <td colspan="3">
+                <input type="text" name="nama" id="nama">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="kecamatan">Kecamatan:</label>
+            </td>
+            <td>
+                <select name="kecamatan" id="kecamatan">
+                    <option value="beji">Beji</option>
+                    <option value="pancoranmas">Pancoran Mas</option>
+                    <option value="Limo">Limo</option>
+                </select>
+            </td>
+            <td>
+                <label for="kelurahan">kelurahan:</label>
+            </td>
+            <td>
+                <select name="kelurahan" id="kelurahan">
+                    <option value="kukusan">kukusan</option>
+                    <option value="pancoranmas">Pancoran Mas</option>
+                    <option value="Bedahan">Bedahan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fasilitas">Deskripsi Fasilitas:</label>
+            </td>
+            <td colspan="3">
+                <textarea name="fasilitas" id="fasilitas" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pengurus">Nama Pengurus DKM:</label></td>
+            <td colspan="3">
+                <input type="text" name="pengurus" id="pengurus">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="nomorhp">No HP / Telp:</label></td>
+            <td colspan="3">
+                <input type="number" name="nomorhp" id="nomorhp">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label></td>
+            <td colspan="3">
+                <input type="email" name="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="alamatweb">Alamat Web:</label></td>
+            <td colspan="3">
+                <input type="url" name="alamatweb" id="alamatweb">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Alamat Lengkap:</label>
+            </td>
+            <td colspan="3">
+                <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="latitude">Latitude, Longtitude</label></td>
+            <td colspan="3">
+                <input type="number" name="latitude" id="latitude">
+            </td>
+        </tr>
+    </table>
+    <div class="button">
+        <button type="submit" class="submit">Simpan</button>
+        <button type="submit" class="submit">Update</button>
+        <button type="reset" class="reset">batal</button>
+    </div>
+    </form>
+</body>
+</html>
